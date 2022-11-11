@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* .top banar start  */
+.banar_contenar {
+    display: flex;
+    width: 1321px;
+    height: 646;
+    background-color: #161616;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.banar_box {
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.banar_box h1 {
+    font-size: 70px;
+    margin-left: 116px;
+}
+
+.banar_box p {
+    font-size: 16px;
+    margin-left: 116px;
+}
+
+.banar_box button {
+    padding: 15px 20px;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.banar_box button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+}
+
+/* .top banar end  */
+/* plar card style start  */
+.card_contenar {
+    display: flex;
+    margin-top: 130px;
+}
+
+.card_contenar .sidbar button {
+    display: block;
+
+    align-items: center;
+    Width: 252px;
+    Height: 64px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.card_contenar .sidbar button a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.sidbar {
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    margin-left: 50px;
+
+}
+
+/* cart design */
+.macess {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.mace {
+    margin-left: 25px;
+}
+
+
+.mace {
+    Width: 312px;
+    Height: 242px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+.country {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center
+}
+
+.country {
+    padding-top: 10px;
+
+}
+
+.country h1 {
+    font-size: 40px;
+}
+
+.mace {
+    text-align: center;
+}
+
+.mace p {
+    color: gray;
+}
+
+.mace:hover {
+    border: 2px solid black;
+}
+
+.country img {
+    width: 93.04px;
+    height:
+        54.42px;
+}
+
+/* plar card style end  */
+
+
+
+
+/* footer style start  */
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list h1 {
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+footer .last_futer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* footer style end  */
